@@ -6,3 +6,5 @@
    email = main@den4dr.com
 [init]
    defaultBranch = main
+[include]
+	path = ~/.gitconfig_shared

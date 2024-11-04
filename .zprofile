@@ -77,5 +77,3 @@ if [[ ! -d "$TMPDIR" ]]; then
   mkdir "$TMPDIR"
   chmod 700 "$TMPDIR"
 fi
-
-eval "$(rbenv init -)"
