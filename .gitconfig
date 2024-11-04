@@ -1,0 +1,8 @@
+[alias]
+   vacuum = "!f () { git checkout $1; git branch --merged|egrep -v '\\*|develop|main'|xargs git branch -d; git fetch --prune; };f"
+   pushf = push -f --force-with-lease --force-if-includes
+[user]
+   name = h.sato
+   email = main@den4dr.com
+[init]
+   defaultBranch = main

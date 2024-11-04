@@ -26,19 +26,8 @@ export PAGER='less'
 #
 
 if [[ -z "$LANG" ]]; then
-  export LANG='en_US.UTF-8'
+  export LANG='ja_JP.UTF-8'
 fi
-
-#
-# Some Other Env Values
-#
-
-# set Nodebrew Root to Brew
-export NODEBREW_ROOT=/usr/local/var/nodebrew
-
-# set Path for access to dashdb
-export DYLD_LIBRARY_PATH=/Applications/dsdriver/lib
-export DB2DSDRIVER_CFG_PATH=$HOME/.dsconfig
 
 #
 # Paths
